@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 import {
   Navbar,
   MobileNav,
@@ -7,7 +8,7 @@ import {
   IconButton,
   Input,
 } from "@material-tailwind/react";
-import Logo from "./../../public/zyro-image.png"
+import Logo from "./../../src/assets/image/zyro-image.png"
 export default function Example() {
   const [openNav, setOpenNav] = useState(false);
  
@@ -23,9 +24,7 @@ export default function Example() {
         color="white"
         className="p-1 font-normal  font-bold"
       >
-        <a href="#" className="flex items-center">
-          Resep Makanan
-        </a>
+        <Link to="/resep-makanan">Resep Makanan</Link>
       </Typography>
       <Typography
         as="li"
@@ -33,9 +32,7 @@ export default function Example() {
         color="white"
         className="p-1 font-normal  font-bold"
       >
-        <a href="#" className="flex items-center">
-          Tips
-        </a>
+        <Link to="/tips">Tips</Link>
       </Typography>
       <Typography
         as="li"
@@ -51,10 +48,12 @@ export default function Example() {
   );
  
   return (
-    <Navbar color="red" className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8">
+    <Navbar style={{ backgroundColor: "#BB2222" }} className="sticky inset-0 z-10 h-max max-w-full rounded-none py-2 px-4 lg:px-8">
       <div className="container mx-auto flex items-center justify-between">
         <Typography as="a" href="#" className="p-0">
-            <img src={Logo} alt="Savora" className="h-16 w-auto cursor-pointer"/>
+            <Link to="/">
+              <img src={Logo} alt="Savora" className="h-16 w-auto cursor-pointer"/>
+            </Link>
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <div className="relative flex w-full gap-2 md:w-max hidden lg:inline-block">

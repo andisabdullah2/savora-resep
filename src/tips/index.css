@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.swiper-slide {
+  margin-right: 8px
+}
+
+@media (max-width: 500px) {
+  .swiper_container {
+    height: 47rem;
+  }
+  .swiper-slide {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+  .swiper-slide img {
+    width: 28rem !important;
+    height: 36rem !important;
+  }
+}
+.caroutips {
+  height: 550px;
+}
+.caroutips img {
+  height: 550px;
+  width: 100%;
+} 
+.body-resep {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 30px;
+}
+.title-section {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.resep-card {
+  height: 325px;
+  width: 325px;
+  border-radius: 50px;
+  background-color: #F59E0B;
+}
+.resep-card img{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+.title-detail {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  margin-left: 14px;
+}
+.slide-item-section {
+  height: auto;
+}
+.button-lebih-banyak {
+  height: 56px;
+  width: 283px;
+  border-radius: 50px;
+  background-color: #BB2222;
+}
+.button-lebih-banyak button{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-tips {
+  border-radius: 30px;
+  width: 100%;
+  height: 360px;
+  box-shadow: 15px 15px 30px #bebebe,
+  -15px -15px 30px #ffffff;
+}
+.detail-card-tips1 img{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 260px;
+  width: 100%;
+}
