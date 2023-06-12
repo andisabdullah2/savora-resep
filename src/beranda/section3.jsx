@@ -8,6 +8,7 @@ import clock from './../assets/image/clock.png'
 import view from './../assets/image/view.png'
 import save from './../assets/image/save.png'
 import arrow from './../assets/icon/arrow-right.svg'
+import { Link } from "react-router-dom";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -72,7 +73,7 @@ export default class Section2 extends Component {
                   <div class="col-span-2 detail-card-tips1">
                     <img src={makanan1} alt="" />
                   </div>
-                  <div class="col-span-2 detail-card-tips2 flex items-start text-justify">3 Cara Mudah Goreng Kacang Mete agar Gurih, Renyah, dan Tidak Pahit</div>
+                  <div class="col-span-2 detail-card-tips2 flex items-start text-justify"><Link to="/detail-tips">3 Cara Mudah Goreng Kacang Mete agar Gurih, Renyah, dan Tidak Pahit</Link></div>
                 </div>
               </div>
             </div>

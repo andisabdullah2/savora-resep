@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+.body-resep {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+.title-tips{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 600px;
+}
+.gambar-detail-tips {
+    margin-top: 30px;
+}
+.body-resep img {
+    width: 100%;
+    border-radius: 20px;
+    height: 600px;
+}
+.akun-tips {
+    margin-top: 30px;
+}
+.akun-tips img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.nama-akun{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.tgl-publis-tips {
+    color: rgb(129, 129, 129);
+}
+.isi-tips {
+    margin-top: 30px;
+}
