@@ -7,7 +7,6 @@ import start from './../assets/image/star.png'
 import clock from './../assets/image/clock.png'
 import view from './../assets/image/view.png'
 import save from './../assets/image/save.png'
-import arrow from './../assets/icon/arrow-right.svg'
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -17,7 +16,6 @@ function SampleNextArrow(props) {
       style={{ ...style, top: "-30px", right: "0", zIndex: "1" }}
       onClick={onClick}
     >
-      <img src={arrow} alt="" />
     </div>
   );
 }
@@ -104,7 +102,7 @@ export default class Section3Resep extends Component {
             </div>
           </div>
           <div className="slide-item-section">
-            <div className="card-makanan">
+            <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
                     <img src={people1} alt="" />
@@ -130,7 +128,7 @@ export default class Section3Resep extends Component {
             </div>
           </div>
           <div className="slide-item-section">
-            <div className="card-makanan">
+            <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
                     <img src={people1} alt="" />
@@ -156,7 +154,7 @@ export default class Section3Resep extends Component {
             </div>
           </div>
           <div className="slide-item-section">
-            <div className="card-makanan">
+            <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
                     <img src={people1} alt="" />
@@ -182,7 +180,7 @@ export default class Section3Resep extends Component {
             </div>
           </div>
           <div className="slide-item-section">
-            <div className="card-makanan">
+            <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
                     <img src={people1} alt="" />
@@ -208,7 +206,7 @@ export default class Section3Resep extends Component {
             </div>
           </div>
           <div className="slide-item-section">
-            <div className="card-makanan">
+            <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
                     <img src={people1} alt="" />
@@ -234,7 +232,7 @@ export default class Section3Resep extends Component {
             </div>
           </div>
           <div className="slide-item-section">
-            <div className="card-makanan">
+            <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
                     <img src={people1} alt="" />

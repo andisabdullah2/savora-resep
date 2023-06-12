@@ -82,8 +82,9 @@
 }
 .title{
   text-align: left;
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: bold !important;
+  font-size: 22px !important;
+  font-family: "Poppins";
 }
 .slide-item-section{
   padding: 20px;
@@ -95,18 +96,14 @@
 }
 .card-makanan {
   border-radius: 30px;
-  width: 100%;
-  height: 630px;
+  width: 361px;
+  height: 578px;
   padding: 30px;
-  box-shadow: 15px 15px 30px #bebebe,
-  -15px -15px 30px #ffffff;
 }
 .card-tips {
   border-radius: 30px;
   width: 100%;
   height: 360px;
-  box-shadow: 15px 15px 30px #bebebe,
-  -15px -15px 30px #ffffff;
 }
 .section1 {
   height: 850px;
@@ -123,6 +120,7 @@
 
 .detail-card-item1 {
   font-size: 20px;
+  font-family: "Poppins";
 }
 .detail-card-item1 img {
   border-radius: 50%;
@@ -144,6 +142,7 @@
 .detail-card-item4 {
   font-weight: 600;
   font-size: 20px;
+  font-family: "Poppins";
 }
 .detail-card-item3 img{
   border-radius: 30px;
@@ -160,9 +159,9 @@
     padding-top: 30px;
 }
 .title-section {
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
+  font-size: 24px !important;
+  color: white;
+  font-family: "Poppins";
 }
 .resep-card {
     height: 325px;
@@ -176,8 +175,9 @@
     border-radius: 50%;
 }
 .title-detail {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 24px !important;
     color: white;
     margin-left: 14px;
+    font-family: "Poppins";
+    text-align: left;
 }

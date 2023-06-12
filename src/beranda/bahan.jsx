@@ -1,14 +1,16 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import './index.css'
-import image1 from './../assets/image/Ellipse7.png'
-import image2 from './../assets/image/Ellipse1.png'
-import image3 from './../assets/image/Ellipse2.png'
-import image4 from './../assets/image/Ellipse3.png'
-import image5 from './../assets/image/Ellipse4.png'
-import image6 from './../assets/image/Ellipse5.png'
-import image7 from './../assets/image/Ellipse6.png'
-import arrow from './../assets/icon/arrow-right.svg'
+import image1 from './../assets/image/Ellipse1.png'
+import image2 from './../assets/image/Ellipse2.png'
+import image3 from './../assets/image/Ellipse3.png'
+import image4 from './../assets/image/Ellipse4.png'
+import image5 from './../assets/image/Ellipse5.png'
+import image6 from './../assets/image/Ellipse6.png'
+import image7 from './../assets/image/Ellipse7.png'
+import image8 from './../assets/image/Ellipse8.png'
+import image9 from './../assets/image/Ellipse9.png'
+import image10 from './../assets/image/Ellipse10.png'
 
 
 function SampleNextArrow(props) {
@@ -16,10 +18,9 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, top: "-30px", right: "0", zIndex: "1" }}
+      style={{ ...style, top: "-30px", right: "0", zIndex: "1", color:"black"}}
       onClick={onClick}
     >
-      <img src={arrow} alt="" />
     </div>
   );
 }
@@ -69,43 +70,43 @@ export default class Bahan extends Component {
         <Slider {...settings}>
           <div className="slide-item">
             <img src={image1} alt="" />
-            <div className="food-name">Jagung</div>
-          </div>
-          <div className="slide-item">
-            <img src={image2} alt="" />
             <div className="food-name">Ayam</div>
           </div>
           <div className="slide-item">
-            <img src={image3} alt="" />
-            <div className="food-name">Ikan</div>
+            <img src={image2} alt="" />
+            <div className="food-name">Beras</div>
           </div>
           <div className="slide-item">
-            <img src={image7} alt="" />
+            <img src={image3} alt="" />
+            <div className="food-name">Cokelat</div>
+          </div>
+          <div className="slide-item">
+            <img src={image4} alt="" />
             <div className="food-name">Daging</div>
           </div>
           <div className="slide-item">
-            <img src={image4} alt="" />
-            <div className="food-name">Mie</div>
-          </div>
-          <div className="slide-item">
             <img src={image5} alt="" />
-            <div className="food-name">Tahu</div>
+            <div className="food-name">Es Batu</div>
           </div>
           <div className="slide-item">
             <img src={image6} alt="" />
-            <div className="food-name">Telur</div>
+            <div className="food-name">Fettuccine</div>
           </div>
           <div className="slide-item">
-            <img src={image4} alt="" />
+            <img src={image7} alt="" />
+            <div className="food-name">Gula</div>
+          </div>
+          <div className="slide-item">
+            <img src={image8} alt="" />
+            <div className="food-name">Ikan</div>
+          </div>
+          <div className="slide-item">
+            <img src={image9} alt="" />
+            <div className="food-name">Jagung</div>
+          </div>
+          <div className="slide-item">
+            <img src={image10} alt="" />
             <div className="food-name">Mie</div>
-          </div>
-          <div className="slide-item">
-            <img src={image5} alt="" />
-            <div className="food-name">Tahu</div>
-          </div>
-          <div className="slide-item">
-            <img src={image6} alt="" />
-            <div className="food-name">Telur</div>
           </div>
         </Slider>
       </div>

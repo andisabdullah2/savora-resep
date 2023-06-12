@@ -6,8 +6,9 @@
   box-sizing: border-box;
   list-style-type: none;
 }
+
 .swiper-slide {
-  margin-right: 8px
+  margin: 10px 0px 10px 0px;
 }
 
 @media (max-width: 500px) {
@@ -19,15 +20,11 @@
     height: 36rem !important;
   }
   .swiper-slide img {
-    width: 28rem !important;
-    height: 36rem !important;
+    width: 400px !important;
+    height: 220px!important;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 2px #d9d9d9 !important;
   }
-}
-
-.swiper-slide img {
-  width: 35rem;
-  height: 14rem;
-  border-radius: 1rem;
 }
 
 .swiper-slide-shadow-left,
@@ -53,6 +50,12 @@
   justify-content: center;
 }
 
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+
 .slide-item{
   padding-left: 30px;
   position: relative;
@@ -63,12 +66,13 @@
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  border: 1px solid rgb(0, 0, 0); /* Tambahkan border linen pada gambar */
+  border: 2px solid rgba(255, 165, 0, 0.5) !important;
 }
 
 .slide-item h3 {
   font-weight: 600;
   font-size: 24px;
+  font-family: "Poppins";
 }
 
 .food-name {
@@ -77,13 +81,15 @@
   left: 0;
   right: 0;
   margin: auto;
-  font-weight: bold;
+  font-weight: normal !important;
   font-size: 16px;
+  font-family: "Poppins";
 }
 .title{
   text-align: left;
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: bold !important;
+  font-size: 22px !important;
+  font-family: "Poppins";
 }
 .slide-item-section{
   padding: 20px;
@@ -97,16 +103,16 @@
   border-radius: 30px;
   width: 100%;
   height: 630px;
-  padding: 30px;
-  box-shadow: 15px 15px 30px #bebebe,
-  -15px -15px 30px #ffffff;
+  padding: 18px 30px !important;
+  box-shadow: 0px 5px 2px #d9d9d9 !important;
+  background-color: #fff;
 }
 .card-tips {
   border-radius: 30px;
-  width: 100%;
-  height: 360px;
-  box-shadow: 15px 15px 30px #bebebe,
-  -15px -15px 30px #ffffff;
+  width: 360px !important;
+  height: 350px !important;
+  box-shadow: 0px 5px 2px #d9d9d9 !important;
+  background-color: #fff !important;
 }
 .section1 {
   height: 850px;
@@ -123,6 +129,7 @@
 
 .detail-card-item1 {
   font-size: 20px;
+  font-family: "Poppins";
 }
 .detail-card-item1 img {
   border-radius: 50%;
@@ -132,19 +139,31 @@
 .detail-card-tips1 img{
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  height: 260px;
-  width: 100%;
+  height: 251.56px !important;
+  width: 100% !important;
 }
 .detail-card-tips2 {
-  font-weight: 500;
+  font-weight: bold !important;
   font-size: 20;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-family: "Poppins";
 }
 .detail-card-item4 {
-  font-weight: 600;
   font-size: 20px;
+  font-family: "Poppins";
+}
+.detail-card-item5 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: grey;
+}
+.detail-card-item6 {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: grey;
 }
 .detail-card-item3 img{
   border-radius: 30px;
+  font-family: "Poppins";
+  width: 300px;
+  height: 300px;
 }
