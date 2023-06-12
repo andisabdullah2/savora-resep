@@ -16,40 +16,58 @@ import slide_image_3 from './../assets/image/slide3.jpeg';
 export default function CarauselBeranda() {
 
     return (
-        <div className="items-center justify-center pt-10 pl-20 pr-20  ">
+        <div className="items-center justify-center pt-10 pl-20 pr-20">
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
                 centeredSlides={true}
                 loop={false}
-                slidesPerView={2}
-                spaceBetween={90} 
+                slidesPerView={2.7}
+                spaceBetween={50} 
                 coverflowEffect={{
                     rotate: 0,
-                    stretch: 0,
-                    depth: 100,
+                    stretch: -1,
+                    depth: 50,
                     modifier: 2.5,
                 }}
                 modules={[EffectCoverflow, Pagination, Navigation]}
-                initialSlide={1} // Atur slide tengah sebagai slide pertama
+                initialSlide={1}
                 className="swiper_container"
             >
-                <SwiperSlide>
-                    <img src={slide_image_1} alt="slide_image"  />
+                <SwiperSlide style={{
+                boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.5)",
+                borderRadius: "20px"
+                 }}>
+                    <img src={slide_image_1} alt="slide_image drop-shadow-xl"  />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src={slide_image_2} alt="slide_image" />
+                <SwiperSlide style={{
+                boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.5)",
+                borderRadius: "20px"
+                 }}>
+                    <img src={slide_image_2} alt="slide_image drop-shadow-xl" />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src={slide_image_3} alt="slide_image"  />
+                <SwiperSlide style={{
+                boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.5)",
+                borderRadius: "20px"
+                 }}>
+                    <img src={slide_image_3} alt="slide_image drop-shadow-xl"  />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src={slide_image_1} alt="slide_image"  />
+                <SwiperSlide style={{
+                boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.5)",
+                borderRadius: "20px"
+                 }}>
+                    <img src={slide_image_1} alt="slide_image drop-shadow-xl"  />
                 </SwiperSlide>
-                <SwiperSlide>
-                    <img src={slide_image_2} alt="slide_image" />
+                <SwiperSlide style={{
+                boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.5)",
+                borderRadius: "20px"
+                 }}>
+                    <img src={slide_image_2} alt="slide_image drop-shadow-xl" />
                 </SwiperSlide>
-                <SwiperSlide>
+                <SwiperSlide style={{
+                boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.5)",
+                borderRadius: "20px"
+                 }}>
                     <img src={slide_image_3} alt="slide_image" />
                 </SwiperSlide>
             </Swiper>
