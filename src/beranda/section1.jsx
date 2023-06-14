@@ -9,6 +9,7 @@ import start from './../assets/image/star.png'
 import clock from './../assets/image/clock.png'
 import view from './../assets/image/view.png'
 import save from './../assets/image/save.png'
+import { Link } from "react-router-dom";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -32,8 +33,6 @@ function SamplePrevArrow(props) {
     />
   );
 }
-
-
 export default class Section1 extends Component {
   render() {
     var settings = {
@@ -87,7 +86,10 @@ export default class Section1 extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan1} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar Madu</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                    Ayam Bakar Madu
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center" >
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
                 </div>

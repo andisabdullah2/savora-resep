@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import { Navbar, MobileNav, Typography, Button, IconButton, Input } from "@material-tailwind/react";
+import { Navbar, MobileNav, Typography, IconButton, Input } from "@material-tailwind/react";
 import Logo from "./../../src/assets/image/zyro-image.png";
 
 export default function Example() {

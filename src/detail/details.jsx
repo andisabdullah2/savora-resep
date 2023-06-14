@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import './index.css'
+import './detail.css'
 import people1 from './../assets/image/people1.jpeg'
 import makanan1 from './../assets/image/makanan1.jpg'
 import start from './../assets/image/star.png'
 import StarRating from "./rating";
 import detailrecookimg from "./../assets/image/detailrecookimg.png"
 
-export default class Details extends Component {
+export default function Details () {
     
-  render() {
     return (
         <div className="body-resep ">
             <div className="card-title flex items-center justify-center">
@@ -185,4 +184,3 @@ export default class Details extends Component {
         </div>
     );    
   }
-}

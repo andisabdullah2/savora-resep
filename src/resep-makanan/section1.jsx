@@ -20,7 +20,7 @@ export default class Section1Resep extends Component {
             <div className="card-title flex items-center justify-center">
                 <div className="title-section">Kategori</div>
             </div>
-            <div class="grid grid-cols-3 gap-4 pl-20 pr-20 pt-10 ">
+            <div class="resep-kategori grid grid-cols-3 gap-4 pl-20 pr-20 pt-10 ">
                 <div className="resep-card flex items-center justify-center">
                     <img src={KategoriMakanan} alt="" />
                     <div className="title-detail">Kategori <br /> Makanan</div>

@@ -4,7 +4,7 @@ import './index.css'
 import tips1 from './../assets/image/tips1.jpg'
 import tips2 from './../assets/image/tips2.jpg'
 import tips3 from './../assets/image/tips3.jpg'
-
+import { Link } from "react-router-dom";
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
