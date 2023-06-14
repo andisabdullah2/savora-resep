@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import './index.css'
 import people1 from './../assets/image/people1.jpeg'
+import people2 from './../assets/image/people2.jpeg'
+import people3 from './../assets/image/people3.jpeg'
 import makanan1 from './../assets/image/makanan1.jpg'
 import makanan2 from './../assets/image/makanan2.jpg'
 import makanan3 from './../assets/image/makanan3.jpg'
@@ -16,7 +18,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, top: "-30px", right: "0", zIndex: "1" }}
+      style={{ ...style, zIndex: "1" }}
       onClick={onClick}
     >
     </div>
@@ -109,7 +111,7 @@ export default class Section1 extends Component {
             <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
+                    <img src={people2} alt="" />
                     <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Diana Fariza</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
@@ -117,13 +119,13 @@ export default class Section1 extends Component {
                 </div>
                 <div class="col-span-2 detail-card-item4 flex items-start">Nagiri Sushi</div>
                 <div class="detail-card-item5 flex items-center" >
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.7)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
                 </div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (53)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />
@@ -135,7 +137,7 @@ export default class Section1 extends Component {
             <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
+                    <img src={people3} alt="" />
                     <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Fatimah</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
@@ -146,10 +148,10 @@ export default class Section1 extends Component {
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end" >
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 10 Menit
                 </div>
                 <div class="detail-card-item5 flex items-center" >
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (57)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />

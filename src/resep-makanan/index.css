@@ -146,6 +146,9 @@
 }
 .detail-card-item3 img{
   border-radius: 30px;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover !important;
 }
 .card-title{
     height: 56px;
@@ -170,9 +173,12 @@
     background-color: #F59E0B;
 }
 .resep-card img{
-    height: 90px;
-    width: 90px;
+    height: 90px !important;
+    width: 90px !important;
     border-radius: 50%;
+    width: auto;
+    max-width: 100%;
+    object-fit:cover;
 }
 .title-detail {
     font-size: 24px !important;

@@ -10,7 +10,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, top: "-30px", right: "0", zIndex: "1" }}
+      style={{ ...style, zIndex: "1" }}
       onClick={onClick}
     >
     </div>
@@ -105,9 +105,19 @@ export default class Section2 extends Component {
               <div className="card-tips drop-shadow-xl ">
                 <div class="grid grid-cols-2 gap-4">
                   <div class="col-span-2 detail-card-tips1">
-                    <img src={tips1} alt="" />
+                    <img src={tips2} alt="" />
                   </div>
-                  <div class="col-span-2 detail-card-tips2 flex items-start text-justify">3 Cara Mudah Goreng Kacang Mete agar Gurih, Renyah, dan Tidak Pahit</div>
+                  <div class="col-span-2 detail-card-tips2 flex items-start text-justify">10 Buah yang Tidak Boleh Masuk Kulkas, Kamu Wajib Tahu</div>
+                </div>
+              </div>
+            </div>
+            <div className="slide-item-section ">
+              <div className="card-tips drop-shadow-xl ">
+                <div class="grid grid-cols-2 gap-4">
+                  <div class="col-span-2 detail-card-tips1">
+                    <img src={tips3} alt="" />
+                  </div>
+                  <div class="col-span-2 detail-card-tips2 flex items-start text-justify">Takaran Air Memasak Nasi Pulen Ada Beberapa Metode, Lho! Yuk Simak!</div>
                 </div>
               </div>
             </div>

@@ -67,6 +67,9 @@
   width: 120px;
   height: 120px;
   border: 2px solid rgba(255, 165, 0, 0.5) !important;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .slide-item h3 {
@@ -135,12 +138,18 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
+  width: auto;
+  max-width: 100%;
+  object-fit:cover;
 }
 .detail-card-tips1 img{
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   height: 251.56px !important;
   width: 100% !important;
+  width: auto;
+  max-width: 100%;
+  object-fit:cover;
 }
 .detail-card-tips2 {
   font-weight: bold !important;
@@ -166,4 +175,7 @@
   font-family: "Poppins";
   width: 300px;
   height: 300px;
+  width: auto;
+  max-width: 100%;
+  object-fit: cover;
 }
