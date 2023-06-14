@@ -63,7 +63,7 @@
   border-radius: 50%;
   width: 120px;
   height: 120px;
-  border: 1px solid rgb(0, 0, 0); /* Tambahkan border linen pada gambar */
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .slide-item h3 {
@@ -186,4 +186,9 @@
     margin-left: 14px;
     font-family: "Poppins";
     text-align: left;
+}
+.resep-kategori .resep-card img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
 }

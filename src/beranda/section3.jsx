@@ -4,7 +4,7 @@ import './index.css'
 import tips1 from './../assets/image/tips1.jpg'
 import tips2 from './../assets/image/tips2.jpg'
 import tips3 from './../assets/image/tips3.jpg'
-
+import { Link } from "react-router-dom";
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -67,7 +67,7 @@ export default class Section2 extends Component {
                   <div class="col-span-2 detail-card-tips1">
                     <img src={tips1} alt="" />
                   </div>
-                  <div class="col-span-2 detail-card-tips2 flex items-start text-justify">3 Cara Mudah Goreng Kacang Mete agar Gurih, Renyah, dan Tidak Pahit</div>
+                  <div class="col-span-2 detail-card-tips2 flex items-start text-justify"><Link to="/detail-tips">3 Cara Mudah Goreng Kacang Mete agar Gurih, Renyah, dan Tidak Pahit</Link></div>
                 </div>
               </div>
             </div>

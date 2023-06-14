@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
+import Slider from "react-slick"
+import { Link } from 'react-router-dom';
 import './index.css'
 import people7 from './../assets/image/people7.jpeg'
 import people8 from './../assets/image/people8.jpeg'
@@ -172,7 +173,7 @@ export default class Section2Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan7} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Sawi Gulung Ayam</div>
+                <div class="col-span-2 detail-card-item4 flex items-start"><Link to="/detail">Ayam Bakar madu</Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.7)
                 </div>
@@ -186,6 +187,7 @@ export default class Section2Resep extends Component {
                     <img src={save} alt="" width={30} height={30} />
                 </div>
               </div>
+              
             </div>
           </div>
           <div className="slide-item-section">
