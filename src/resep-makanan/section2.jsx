@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import './index.css'
-import people1 from './../assets/image/people1.jpg'
-import makanan1 from './../assets/image/makanan1.jpg'
+import people7 from './../assets/image/people7.jpeg'
+import people8 from './../assets/image/people8.jpeg'
+import people9 from './../assets/image/people9.jpeg'
+import makanan7 from './../assets/image/makanan7.jpg'
+import makanan8 from './../assets/image/makanan8.jpg'
+import makanan9 from './../assets/image/makanan9.jpg'
 import start from './../assets/image/star.png'
 import clock from './../assets/image/clock.png'
 import view from './../assets/image/view.png'
@@ -13,7 +17,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, top: "-30px", right: "0", zIndex: "1" }}
+      style={{ ...style, zIndex: "1" }}
       onClick={onClick}
     >
     </div>
@@ -84,21 +88,21 @@ export default class Section2Resep extends Component {
             <div className="card-makanan drop-shadow-xl ">
               <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
+                    <img src={people7} alt="" />
                     <div style={{ marginLeft: "14px", fontFamily: "Poppins" }}>Aura Amalia</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
+                  <img src={makanan7} alt="" />
                 </div>
                 <div class="col-span-2 detail-card-item4 flex items-start">Sawi Gulung Ayam</div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.7)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 25 Menit
                 </div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (53)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />
@@ -110,21 +114,21 @@ export default class Section2Resep extends Component {
             <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
+                    <img src={people8} alt="" />
                     <div style={{ marginLeft: "14px", fontFamily: "Poppins" }}>Dian Sahira</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
+                  <img src={makanan8} alt="" />
                 </div>
                 <div class="col-span-2 detail-card-item4 flex items-start">Cake Klepon</div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 30 Menit
                 </div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (36)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />
@@ -136,21 +140,47 @@ export default class Section2Resep extends Component {
             <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
+                    <img src={people9} alt="" />
                     <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Balqis Divia Putri</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
+                  <img src={makanan9} alt="" />
                 </div>
                 <div class="col-span-2 detail-card-item4 flex items-start">Udang Goreng  Gandum</div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
                 </div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (30)
+                </div>
+                <div class="detail-card-item6 flex items-center justify-end">
+                    <img src={save} alt="" width={30} height={30} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="slide-item-section ">
+            <div className="card-makanan drop-shadow-xl ">
+              <div class="grid grid-cols-2 gap-4">
+                <div class="col-span-2 detail-card-item1 flex items-center">
+                    <img src={people7} alt="" />
+                    <div style={{ marginLeft: "14px", fontFamily: "Poppins" }}>Aura Amalia</div>
+                </div>
+                <div class="col-span-2 detail-card-item3">
+                  <img src={makanan7} alt="" />
+                </div>
+                <div class="col-span-2 detail-card-item4 flex items-start">Sawi Gulung Ayam</div>
+                <div class="detail-card-item5 flex items-center">
+                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.7)
+                </div>
+                <div class="detail-card-item6 flex items-center justify-end">
+                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 25 Menit
+                </div>
+                <div class="detail-card-item5 flex items-center">
+                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (53)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />
@@ -162,21 +192,21 @@ export default class Section2Resep extends Component {
             <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Bela Safira</div>
+                    <img src={people8} alt="" />
+                    <div style={{ marginLeft: "14px", fontFamily: "Poppins" }}>Dian Sahira</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
+                  <img src={makanan8} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">Cake Klepon</div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 30 Menit
                 </div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (36)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />
@@ -188,73 +218,21 @@ export default class Section2Resep extends Component {
             <div className="card-makanan drop-shadow-xl">
             <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Bela Safira</div>
+                    <img src={people9} alt="" />
+                    <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Balqis Divia Putri</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
+                  <img src={makanan9} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">Udang Goreng  Gandum</div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
                 </div>
                 <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan drop-shadow-xl">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan drop-shadow-xl">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (30)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />

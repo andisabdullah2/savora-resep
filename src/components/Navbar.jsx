@@ -17,7 +17,7 @@ export default function Example() {
         as="li"
         variant="small"
         color="white"
-        className={`p-1 ${activePage === "resep-makanan" ? "underline" : ""}`}
+        className={`p-0 ${activePage === "resep-makanan" ? "underline" : "" }`}
         style={{ fontFamily: "Poppins", fontSize: "24px" }}
       >
         <Link to="/resep-makanan" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>Resep</Link>
@@ -77,7 +77,7 @@ export default function Example() {
         </div>
         <IconButton
           variant="text"
-          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+          className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent lg:hidden"
           ripple={false}
           onClick={() => setOpenNav(!openNav)}
         >
