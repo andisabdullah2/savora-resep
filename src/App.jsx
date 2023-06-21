@@ -7,6 +7,7 @@ import Resep from './resep-makanan';
 import Tips from "./tips/index"
 import Detail from "./detail"
 import DetailTips from "./details-tips"
+import TentangKami from "./tentang-kami";
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
     <Route path="/tips" element={<Tips />} />
     <Route path="/detail" element={<Detail />} />
     <Route path="/detail-tips" element={<DetailTips />} />
+    <Route path="/tentang-kami" element={<TentangKami />} />
+
     </Routes>
   )
 }

@@ -1,0 +1,33 @@
+.section-content {
+  display: flex;
+  align-items: center;
+  margin: 80px;
+  margin-top: 50px !important;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 371px;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  font-family: "Poppins";
+  font-size: 20px;
+  text-align: justify;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 6px #bebebe;
+  color: black;
+}
+
+.text-container span {
+  color: #bb2222;
+  font-weight: 600;
+}
+
+.numbered-list {
+  margin-left: 20px;
+}

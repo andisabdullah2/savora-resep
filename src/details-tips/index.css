@@ -10,38 +10,46 @@
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 30px;
+    font-family: "Poppins";
 }
 
 .title-tips{
     margin-top: 30px;
     font-size: 28px;
-    font-weight: 600px;
+    font-weight: bold;
+    font-family: "Poppins";
 }
 .gambar-detail-tips {
     margin-top: 30px;
 }
 .gambar-detail-tips img {
-    width: 100%;
+    width: 1160px;
     border-radius: 20px;
-    height: 600px;
+    height: 541px;
+    object-fit: cover !important;
 }
 .akun-tips {
     margin-top: 30px;
+    font-family: "Poppins";
 }
 .akun-tips img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
     margin-right: 30px;
+    object-fit: cover !important;
 }
 .nama-akun{
     font-size: 20px;
     font-weight: 600;
     margin-right: 30px;
+    font-family: "Poppins";
 }
 .tgl-publis-tips {
     color: rgb(129, 129, 129);
+    font-family: "Poppins";
 }
 .isi-tips {
     margin-top: 30px;
+    font-family: "Poppins";
 }
