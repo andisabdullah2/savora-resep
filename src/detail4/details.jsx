@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import './detail.css'
 import people1 from './../assets/image/people1.jpeg'
-import makanan1 from './../assets/image/lumpia.jpg'
-import langkah1 from './../assets/image/1.jpg'
-import langkah2 from './../assets/image/2.jpg'
-import langkah3 from './../assets/image/3.jpg'
-import langkah4 from './../assets/image/4.jpg'
-import langkah5 from './../assets/image/5.jpg'
+import makanan1 from './../assets/image/makanan1.jpg'
+import langkah1 from './../assets/image/lang1.webp'
+import langkah2 from './../assets/image/lang2.webp'
+import langkah3 from './../assets/image/lang3.webp'
+import langkah4 from './../assets/image/lang4.webp'
+import langkah5 from './../assets/image/lang5.webp'
 import langkah6 from './../assets/image/6.jpg'
 import start from './../assets/image/star.png'
 import StarRating from "./rating";
@@ -18,7 +18,7 @@ export default function Details () {
         <div className="body-resep ">
             <div className="card-title flex items-center justify-center">
                 <div className="title-section">
-                    Resep Lumpia Crispy
+                    Resep Ayam Bakar Madu
                 </div>
             </div>
             <div className="img-detail flex items-center justify-center">
@@ -28,7 +28,7 @@ export default function Details () {
                 <div className="col-span-2 detail1  flex items-center justify-start">
                     <img src={people1} alt="" />
                     <div className="nama">
-                       <h5>Nurul Asyifah</h5> 
+                       <h5>Bella Safira</h5> 
                     </div>
                     <div><strong>.</strong></div>
                     <div className="rating flex items-center justify-start">
@@ -53,9 +53,9 @@ export default function Details () {
                 </div>
                 <div className="bahan flex items-start justify-start ">
                     <ul>
-                        <li style={{ listStyleType: "disc" }}>1 bungkus kulit lumpia</li>
-                        <li style={{ listStyleType: "disc" }}>2 sdm tepung terigu</li>
-                        <li style={{ listStyleType: "disc" }}>Minyak goreng secukupnya</li>
+                        <li style={{ listStyleType: "disc" }}>1 kg ayam paha bawah</li>
+                        <li style={{ listStyleType: "disc" }}>5 sdm madu</li>
+                        <li style={{ listStyleType: "disc" }}>1 sdm kecap manis</li>
                     </ul>
                 </div>
             </div>
@@ -69,42 +69,35 @@ export default function Details () {
                             <img src={langkah1} alt="" />
                             <div className="langkah text-start">
                                 <h1>Langkah 1</h1>
-                                <h2>Siapkan kulit lumpia yang beredar di pasar.</h2>
+                                <h2>Ayam dicuci bersih lalu lumuri dengan bahan marinasi, diamkan.</h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
                             <img src={langkah2} alt="" />
                             <div className="langkah text-start">
                                 <h1>Langkah 2</h1>
-                                <h2>Campurkan tepung terigu yang sudah diberi air. Aduk rata. Adonan jangan terlalu encer.</h2>
+                                <h2>Lalu tumis bumbu sampai harum.</h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
                             <img src={langkah3} alt="" />
                             <div className="langkah text-start">
                                 <h1>Langkah 3</h1>
-                                <h2>Oleskan adonan tepung ke selembar kulit lumpia.</h2>
+                                <h2>Masukkan lengkuas, daun jeruk, dan daun salam, kemudian ayam. Beri air, kecap, dan madu. </h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
                             <img src={langkah4} alt="" />
                             <div className="langkah text-start">
                                 <h1>Langkah 4</h1>
-                                <h2>Lalu rol dengan sumpit plastik.</h2>
+                                <h2>Siapkan panggangan atau bisa di oven. Panggang/bakar ayam, bolak balik sampai agak gosong/kering.</h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
                             <img src={langkah5} alt="" />
                             <div className="langkah text-start">
                                 <h1>Langkah 5</h1>
-                                <h2>Jika semuanya sudah di roll kemudian gunting miring.</h2>
-                            </div>
-                        </li>
-                        <li className="flex items-start justify-start">
-                            <img src={langkah6} alt="" />
-                            <div className="langkah text-start">
-                                <h1>Langkah 6</h1>
-                                <h2>Lalu goreng sampai keemasan. Angkat dan tiriskan.</h2>
+                                <h2>Selamat Mencoba</h2>
                             </div>
                         </li>
                     </ul>
@@ -116,7 +109,7 @@ export default function Details () {
                 </div>
                 <br />
                 <div className="vidio flex items-center justify-center">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/3BC4ebm6V1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/B12KV1qABKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
             <div className="flex items-center justify-center">

@@ -7,6 +7,7 @@ import people3 from './../assets/image/people3.jpeg'
 import makanan1 from './../assets/image/lumpia.jpg'
 import makanan2 from './../assets/image/makanan2.jpg'
 import makanan3 from './../assets/image/makanan3.jpg'
+import makanan4 from './../assets/image/makanan1.jpg'
 import start from './../assets/image/star.png'
 import clock from './../assets/image/clock.png'
 import view from './../assets/image/view.png'
@@ -173,7 +174,7 @@ export default class Section1 extends Component {
                     <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Bela Safira</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
+                  <img src={makanan4} alt="" />
                 </div>
                 <div class="col-span-2 detail-card-item4 flex items-start">
                   <Link to="/detail4" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
