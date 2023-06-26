@@ -4,7 +4,7 @@ import './index.css'
 import people1 from './../assets/image/people1.jpeg'
 import people2 from './../assets/image/people2.jpeg'
 import people3 from './../assets/image/people3.jpeg'
-import makanan1 from './../assets/image/makanan1.jpg'
+import makanan1 from './../assets/image/lumpia.jpg'
 import makanan2 from './../assets/image/makanan2.jpg'
 import makanan3 from './../assets/image/makanan3.jpg'
 import start from './../assets/image/star.png'
@@ -83,14 +83,14 @@ export default class Section1 extends Component {
               <div class="grid grid-cols-2 gap-4">
                 <div class="col-span-2 detail-card-item1 flex items-center">
                     <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Bela Safira</div>
+                    <div style={{ marginLeft: "14px" }}>Nurul Asyifah</div>
                 </div>
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan1} alt="" />
                 </div>
                 <div class="col-span-2 detail-card-item4 flex items-start">
                   <Link to="/detail" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
-                    Ayam Bakar Madu
+                    Lumpia Crispy
                   </Link></div>
                 <div class="detail-card-item5 flex items-center" >
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)

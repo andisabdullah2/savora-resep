@@ -77,192 +77,169 @@ export default class Section1 extends Component {
     };
     return (
         <div className="body-resep">
+          <br />
             <div className="card-title flex items-center justify-center">
                     <div className="title-section">Ayam</div>
             </div>
+            <br />
+            <br />
             <Slider {...settings}>
-          <div className="slide-item-section ">
-            <div className="card-makanan drop-shadow-xl ">
-              <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
+              <div className="slide-item-section ">
+                <div className="card-makanan drop-shadow-xl ">
+                  <div class="grid grid-cols-2 gap-4">
+                    <div class="col-span-2 detail-card-item1 flex items-center">
+                        <img src={people1} alt="" />
+                        <div style={{ marginLeft: "14px" }}>Bela Safira</div>
+                    </div>
+                    <div class="col-span-2 detail-card-item3">
+                      <img src={makanan1} alt="" />
+                    </div>
+                    <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    </div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={save} alt="" width={30} height={30} />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
+              <div className="slide-item-section">
+                <div className="card-makanan">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="col-span-2 detail-card-item1 flex items-center">
+                        <img src={people1} alt="" />
+                        <div style={{ marginLeft: "14px" }}>Bela Safira</div>
+                    </div>
+                    <div class="col-span-2 detail-card-item3">
+                      <img src={makanan1} alt="" />
+                    </div>
+                    <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    </div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={save} alt="" width={30} height={30} />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
+              <div className="slide-item-section">
+                <div className="card-makanan">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="col-span-2 detail-card-item1 flex items-center">
+                        <img src={people1} alt="" />
+                        <div style={{ marginLeft: "14px" }}>Bela Safira</div>
+                    </div>
+                    <div class="col-span-2 detail-card-item3">
+                      <img src={makanan1} alt="" />
+                    </div>
+                    <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    </div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={save} alt="" width={30} height={30} />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people1} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Bela Safira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan1} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
+              <div className="slide-item-section">
+                <div className="card-makanan">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="col-span-2 detail-card-item1 flex items-center">
+                        <img src={people1} alt="" />
+                        <div style={{ marginLeft: "14px" }}>Bela Safira</div>
+                    </div>
+                    <div class="col-span-2 detail-card-item3">
+                      <img src={makanan1} alt="" />
+                    </div>
+                    <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    </div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={save} alt="" width={30} height={30} />
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
+              <div className="slide-item-section">
+                <div className="card-makanan">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="col-span-2 detail-card-item1 flex items-center">
+                        <img src={people1} alt="" />
+                        <div style={{ marginLeft: "14px" }}>Bela Safira</div>
+                    </div>
+                    <div class="col-span-2 detail-card-item3">
+                      <img src={makanan1} alt="" />
+                    </div>
+                    <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    </div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={save} alt="" width={30} height={30} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slide-item-section">
+                <div className="card-makanan">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="col-span-2 detail-card-item1 flex items-center">
+                        <img src={people1} alt="" />
+                        <div style={{ marginLeft: "14px" }}>Bela Safira</div>
+                    </div>
+                    <div class="col-span-2 detail-card-item3">
+                      <img src={makanan1} alt="" />
+                    </div>
+                    <div class="col-span-2 detail-card-item4 flex items-start">Ayam Bakar madu</div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
+                    </div>
+                    <div class="detail-card-item5 flex items-center">
+                        <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
+                    </div>
+                    <div class="detail-card-item6 flex items-center justify-end">
+                        <img src={save} alt="" width={30} height={30} />
+                    </div>
+                  </div>
+                </div>
+              </div>
         </Slider>
         </div>
     );    

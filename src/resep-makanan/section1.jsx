@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
 import './index.css'
 import KategoriMakanan from './../assets/image/kategori-makanan.jpeg'
 import KategoriMinuman from './../assets/image/kategori-minuman.jpeg'
 import KategoriMemasak from './../assets/image/kategori-memasak.webp'
+import { Link } from "react-router-dom";
 
 export default class Section1Resep extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class Section1Resep extends Component {
             <div class="resep-kategori grid grid-cols-3 gap-4 pl-20 pr-20 pt-10 ">
                 <div className="resep-card flex items-center justify-center">
                     <img src={KategoriMakanan} alt="" />
-                    <div className="title-detail">Kategori <br /> Makanan</div>
+                    <Link to="/kategori-makanan"><div className="title-detail">Kategori <br /> Makanan</div></Link>
                 </div>
                 <div className="resep-card flex items-center justify-center">
                     <img src={KategoriMinuman} alt="" />

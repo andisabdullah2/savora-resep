@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import './detail.css'
 import people1 from './../assets/image/people1.jpeg'
-import makanan1 from './../assets/image/makanan1.jpg'
+import makanan1 from './../assets/image/lumpia.jpg'
+import langkah1 from './../assets/image/1.jpg'
+import langkah2 from './../assets/image/2.jpg'
+import langkah3 from './../assets/image/3.jpg'
+import langkah4 from './../assets/image/4.jpg'
+import langkah5 from './../assets/image/5.jpg'
+import langkah6 from './../assets/image/6.jpg'
 import start from './../assets/image/star.png'
 import StarRating from "./rating";
 import detailrecookimg from "./../assets/image/detailrecookimg.png"
@@ -12,7 +18,7 @@ export default function Details () {
         <div className="body-resep ">
             <div className="card-title flex items-center justify-center">
                 <div className="title-section">
-                    Resep Ayam Bakar
+                    Resep Lumpia Crispy
                 </div>
             </div>
             <div className="img-detail flex items-center justify-center">
@@ -22,9 +28,9 @@ export default function Details () {
                 <div className="col-span-2 detail1  flex items-center justify-start">
                     <img src={people1} alt="" />
                     <div className="nama">
-                       <h5>Nurul asyifah</h5> 
+                       <h5>Nurul Asyifah</h5> 
                     </div>
-                    <div>|</div>
+                    <div><strong>.</strong></div>
                     <div className="rating flex items-center justify-start">
                         &nbsp;&nbsp;
                         <img src={start} alt="" />
@@ -45,12 +51,11 @@ export default function Details () {
                 <div className="title">
                     Bahan Bahan
                 </div>
-                <div className="bahan flex items-start justify-start">
-                    <ul type="circle">
-                        <li>a. 1 Ekor Ayam</li>
-                        <li>b. 1 Ekor Ayam</li>
-                        <li>c. 1 Ekor Ayam</li>
-                        <li>d. 1 Ekor Ayam</li>
+                <div className="bahan flex items-start justify-start ">
+                    <ul>
+                        <li style={{ listStyleType: "disc" }}>1 bungkus kulit lumpia</li>
+                        <li style={{ listStyleType: "disc" }}>2 sdm tepung terigu</li>
+                        <li style={{ listStyleType: "disc" }}>Minyak goreng secukupnya</li>
                     </ul>
                 </div>
             </div>
@@ -61,45 +66,45 @@ export default function Details () {
                 <div className="cara-memasak">
                     <ul type="circle">
                         <li className="flex items-start justify-start">
-                            <img src={makanan1} alt="" />
+                            <img src={langkah1} alt="" />
                             <div className="langkah text-start">
                                 <h1>Langkah 1</h1>
-                                <h2>ini adalah langkah pertama</h2>
+                                <h2>Siapkan kulit lumpia yang beredar di pasar.</h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
-                            <img src={makanan1} alt="" />
+                            <img src={langkah2} alt="" />
                             <div className="langkah text-start">
-                                <h1>Langkah 1</h1>
-                                <h2>ini adalah langkah pertama</h2>
+                                <h1>Langkah 2</h1>
+                                <h2>Campurkan tepung terigu yang sudah diberi air. Aduk rata. Adonan jangan terlalu encer.</h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
-                            <img src={makanan1} alt="" />
+                            <img src={langkah3} alt="" />
                             <div className="langkah text-start">
-                                <h1>Langkah 1</h1>
-                                <h2>ini adalah langkah pertama</h2>
+                                <h1>Langkah 3</h1>
+                                <h2>Oleskan adonan tepung ke selembar kulit lumpia.</h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
-                            <img src={makanan1} alt="" />
+                            <img src={langkah4} alt="" />
                             <div className="langkah text-start">
-                                <h1>Langkah 1</h1>
-                                <h2>ini adalah langkah pertama</h2>
+                                <h1>Langkah 4</h1>
+                                <h2>Lalu rol dengan sumpit plastik.</h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
-                            <img src={makanan1} alt="" />
+                            <img src={langkah5} alt="" />
                             <div className="langkah text-start">
-                                <h1>Langkah 1</h1>
-                                <h2>ini adalah langkah pertama</h2>
+                                <h1>Langkah 5</h1>
+                                <h2>Jika semuanya sudah di roll kemudian gunting miring.</h2>
                             </div>
                         </li>
                         <li className="flex items-start justify-start">
-                            <img src={makanan1} alt="" />
+                            <img src={langkah6} alt="" />
                             <div className="langkah text-start">
-                                <h1>Langkah 1</h1>
-                                <h2>ini adalah langkah pertama</h2>
+                                <h1>Langkah 6</h1>
+                                <h2>Lalu goreng sampai keemasan. Angkat dan tiriskan.</h2>
                             </div>
                         </li>
                     </ul>
@@ -107,11 +112,11 @@ export default function Details () {
             </div>
             <div className="detail3">
                 <div className="title">
-                    Atau kamu bisa mengikuti tutorial-nya pada vidio dibawah ini :
+                Atau kamu bisa mengikuti tutorialnya pada video dibawah ini:
                 </div>
                 <br />
                 <div className="vidio flex items-center justify-center">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/INa6V2kG3iE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/3BC4ebm6V1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
             <div className="flex items-center justify-center">

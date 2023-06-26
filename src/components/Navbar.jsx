@@ -38,7 +38,7 @@ export default function Example() {
         className={`p-1 ${activePage === "tentang-kami" ? "underline" : ""}`}
         style={{ fontFamily: "Poppins", fontSize: "24px" }}
       >
-        <a href="#" className="flex items-center" onMouseEnter={() => setActivePage("tentang-kami")} onMouseLeave={() => setActivePage("")}>
+        <a href="/tentang-kami" className="flex items-center" onMouseEnter={() => setActivePage("tentang-kami")} onMouseLeave={() => setActivePage("")}>
           Tentang Kami
         </a>
       </Typography>
