@@ -11,6 +11,7 @@ import start from './../assets/image/star.png'
 import clock from './../assets/image/clock.png'
 import view from './../assets/image/view.png'
 import save from './../assets/image/save.png'
+import { Link } from "react-router-dom";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -89,7 +90,10 @@ export default class Section2 extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan4} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Goreng Crispy</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail5" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                Ayam Goreng Crispy 
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
                 </div>
@@ -115,7 +119,10 @@ export default class Section2 extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan5} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Pempek Ikan Tenggiri</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                <Link to="/detail6" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                Pempek Ikan Tenggiri
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.9)
                 </div>
@@ -141,7 +148,10 @@ export default class Section2 extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan6} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start"> Takoyaki Ala Rumahan</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail7" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                  Takoyaki Ala Rumahan 
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
@@ -167,59 +177,10 @@ export default class Section2 extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan4} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Ayam Goreng Crispy</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan drop-shadow-xl">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people5} alt="" />
-                    <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Zahwa Audina</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan5} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Pempek Ikan Tenggiri</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan drop-shadow-xl">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people6} alt="" />
-                    <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Rika Aulia</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan6} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Takoyaki Ala Rumahan</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail8" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                  Ayam Goreng Crispy  
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.8)
                 </div>

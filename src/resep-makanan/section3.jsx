@@ -11,6 +11,7 @@ import start from './../assets/image/star.png'
 import clock from './../assets/image/clock.png'
 import view from './../assets/image/view.png'
 import save from './../assets/image/save.png'
+import { Link } from 'react-router-dom';
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -89,7 +90,10 @@ export default class Section3Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan10} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Nasi Goreng Seafood</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail5" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                  Nasi Goreng Seafood
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
@@ -115,7 +119,10 @@ export default class Section3Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan11} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Oseng Bakso Mercon</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail6" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                  Oseng Bakso Mercon
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (3.9)
                 </div>
@@ -141,7 +148,10 @@ export default class Section3Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan12} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Waffle Ice Cream</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail7" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                  Waffle Ice Cream
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.0)
                 </div>
@@ -167,7 +177,10 @@ export default class Section3Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan10} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Nasi Goreng Seafood</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail8" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                  Nasi Goreng Seafood
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
@@ -176,58 +189,6 @@ export default class Section3Resep extends Component {
                 </div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (57)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan drop-shadow-xl">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people11} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Listina Ayu</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan11} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Oseng Bakso Mercon</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (3.9)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 25 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (38)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan drop-shadow-xl">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people12} alt="" />
-                    <div style={{ marginLeft: "14px" }}>Dewi Kartika</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan12} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Waffle Ice Cream</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.0)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 15 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (55)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />
