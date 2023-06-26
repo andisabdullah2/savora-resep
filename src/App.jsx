@@ -15,7 +15,9 @@ import Detail7 from "./detail7"
 import Detail8 from "./detail8"
 import DetailTips from "./details-tips"
 import TentangKami from "./tentang-kami";
-
+import Kategori from './bahan-makanan';
+import KategoriMakanan from './kategori-makanan';
+import NaikBeratBadan from './naikberatbadan';
 
 function App() {
 
@@ -36,6 +38,9 @@ function App() {
     <Route path="/detail8" element={<Detail8 />} />
     <Route path="/detail-tips" element={<DetailTips />} />
     <Route path="/tentang-kami" element={<TentangKami />} />
+    <Route path="/ayam" element={<Kategori />} />
+    <Route path="/kategori-makanan" element={<KategoriMakanan />} />
+    <Route path="/naik-berat-badan" element={<NaikBeratBadan />} />
 
     </Routes>
   )

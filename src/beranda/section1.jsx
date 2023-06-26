@@ -13,6 +13,10 @@ import clock from './../assets/image/clock.png'
 import view from './../assets/image/view.png'
 import save from './../assets/image/save.png'
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import Logo from "./../../src/assets/image/zyro-image.png";
+import Android from "./../../src/assets/image/andro.png";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -37,6 +41,20 @@ function SamplePrevArrow(props) {
   );
 }
 export default class Section1 extends Component {
+
+  state = {
+    showModal: false
+  };
+
+  toggleModal = () => {
+    this.setState(prevState => ({
+      showModal: !prevState.showModal
+    }));
+  };
+  closeModal = () => {
+    this.setState({ showModal: false });
+  };
+
   render() {
     var settings = {
       dots: false,
@@ -103,7 +121,7 @@ export default class Section1 extends Component {
                     <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
+                <img src={save} alt="" width={30} height={30} onClick={this.toggleModal} />
                 </div>
               </div>
             </div>
@@ -132,7 +150,7 @@ export default class Section1 extends Component {
                     <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (53)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
+                    <img src={save} alt="" width={30} height={30} onClick={this.toggleModal} />
                 </div>
               </div>
             </div>
@@ -161,7 +179,7 @@ export default class Section1 extends Component {
                     <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (57)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
+                    <img src={save} alt="" width={30} height={30} onClick={this.toggleModal} />
                 </div>
               </div>
             </div>
@@ -190,12 +208,45 @@ export default class Section1 extends Component {
                     <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (60)
                 </div>
                 <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
+                    <img src={save} alt="" width={30} height={30} onClick={this.toggleModal} />
                 </div>
               </div>
             </div>
           </div>
         </Slider>
+        {this.state.showModal && (
+          <div className="modal">
+            <div className="modal-content">
+              <div class="flex items-center justify-end">
+                <div className="close-button">
+                  <FontAwesomeIcon
+                    icon={faTimes}
+                    className="close-icon"
+                    onClick={this.closeModal}
+                  />
+                </div>
+              </div>
+              <div class="flex items-center justify-start">
+                <img src={Logo} alt="" width={70} height={70}/>
+              </div>
+              
+              <div class="flex items-center justify-center">
+                <img src={Android} alt="" width={301} height={302}/>
+              </div>
+              <div class="flex items-center justify-center">
+                <b style={{ color: 'white' }}>Menyimpan Resep tanpa Batas</b><br />
+              </div>
+              <div class="flex items-center justify-center">
+                <b style={{ color: 'white' }}>melalui Aplikasi Savoricious, unduh yuk!</b><br />
+              </div>
+              <br />
+              <div class="buttonunduh flex items-center justify-center" >
+                <button className="unduh"><b style={{ color: 'white' }}>Unduh</b></button>
+              </div>
+              {/* Add more content as needed */}
+            </div>
+          </div>
+        )}
       </div>
     );    
   }

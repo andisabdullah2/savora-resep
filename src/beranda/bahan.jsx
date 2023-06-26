@@ -11,6 +11,7 @@ import image7 from './../assets/image/Ellipse7.png'
 import image8 from './../assets/image/Ellipse8.png'
 import image9 from './../assets/image/Ellipse9.png'
 import image10 from './../assets/image/Ellipse10.png'
+import { Link } from "react-router-dom";
 
 
 function SampleNextArrow(props) {
@@ -70,7 +71,9 @@ export default class Bahan extends Component {
         <Slider {...settings}>
           <div className="slide-item">
             <img src={image1} alt="" />
+            <Link to="/ayam">
             <div className="food-name">Ayam</div>
+            </Link>
           </div>
           <div className="slide-item">
             <img src={image2} alt="" />
