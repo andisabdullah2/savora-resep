@@ -95,7 +95,10 @@ export default class Section2Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan7} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Sawi Gulung Ayam</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                  Sawi Gulung Ayam 
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.7)
                 </div>
@@ -121,7 +124,10 @@ export default class Section2Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan8} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Cake Klepon</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail2" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                  Cake Klepon
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
@@ -147,7 +153,10 @@ export default class Section2Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan9} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Udang Goreng  Gandum</div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                <Link to="/detail3" onMouseEnter={() => setActivePage("resep-makanan")} onMouseLeave={() => setActivePage("")}>
+                Udang Goreng  Gandum
+                  </Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
                 </div>
@@ -173,7 +182,8 @@ export default class Section2Resep extends Component {
                 <div class="col-span-2 detail-card-item3">
                   <img src={makanan7} alt="" />
                 </div>
-                <div class="col-span-2 detail-card-item4 flex items-start"><Link to="/detail">Ayam Bakar madu</Link></div>
+                <div class="col-span-2 detail-card-item4 flex items-start">
+                  <Link to="/detail4">Ayam Bakar madu</Link></div>
                 <div class="detail-card-item5 flex items-center">
                     <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.7)
                 </div>
@@ -186,60 +196,7 @@ export default class Section2Resep extends Component {
                 <div class="detail-card-item6 flex items-center justify-end">
                     <img src={save} alt="" width={30} height={30} />
                 </div>
-              </div>
-              
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan drop-shadow-xl">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people8} alt="" />
-                    <div style={{ marginLeft: "14px", fontFamily: "Poppins" }}>Dian Sahira</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan8} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Cake Klepon</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 30 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (36)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="slide-item-section">
-            <div className="card-makanan drop-shadow-xl">
-            <div class="grid grid-cols-2 gap-4">
-                <div class="col-span-2 detail-card-item1 flex items-center">
-                    <img src={people9} alt="" />
-                    <div style={{ marginLeft: "14px", fontFamily:"Poppins" }}>Balqis Divia Putri</div>
-                </div>
-                <div class="col-span-2 detail-card-item3">
-                  <img src={makanan9} alt="" />
-                </div>
-                <div class="col-span-2 detail-card-item4 flex items-start">Udang Goreng  Gandum</div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={start} alt="" width={30} height={30}/> &nbsp; &nbsp; (4.5)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={clock} alt="" width={30} height={30}  /> &nbsp; &nbsp; 20 Menit
-                </div>
-                <div class="detail-card-item5 flex items-center">
-                    <img src={view} alt="" width={30} height={30} /> &nbsp; &nbsp; (30)
-                </div>
-                <div class="detail-card-item6 flex items-center justify-end">
-                    <img src={save} alt="" width={30} height={30} />
-                </div>
-              </div>
+              </div>  
             </div>
           </div>
         </Slider>
