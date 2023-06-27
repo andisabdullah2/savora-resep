@@ -18,6 +18,8 @@ import TentangKami from "./tentang-kami";
 import Kategori from './bahan-makanan';
 import KategoriMakanan from './kategori-makanan';
 import NaikBeratBadan from './naikberatbadan';
+import KategoriMinuman from './kategori-minuman/sectionminuman';
+import KategoriMakananPembuka from './makanan-pembuka';
 
 function App() {
 
@@ -41,7 +43,8 @@ function App() {
     <Route path="/ayam" element={<Kategori />} />
     <Route path="/kategori-makanan" element={<KategoriMakanan />} />
     <Route path="/naik-berat-badan" element={<NaikBeratBadan />} />
-
+    <Route path="/sectionminuman" element={<KategoriMinuman/>} />
+    <Route path="/section" element={<KategoriMakananPembuka/>} />
     </Routes>
   )
 }

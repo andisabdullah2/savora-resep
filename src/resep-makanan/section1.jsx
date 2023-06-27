@@ -19,7 +19,8 @@ export default class Section1Resep extends Component {
                 </div>
                 <div className="resep-card flex items-center justify-center">
                     <img src={KategoriMinuman} alt="" />
-                    <div className="title-detail">Kategori <br /> Minuman</div>
+                    <div className="title-detail">Kategori <br /> <Link to="/sectionminuman" onMouseEnter={() => setActivePage("sectionminuman")} onMouseLeave={() => setActivePage("")}>Minuman</Link>
+                    </div>
                 </div>
                 <div className="resep-card flex items-center justify-center">
                     <img src={KategoriMemasak} alt="" />
